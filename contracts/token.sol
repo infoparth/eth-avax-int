@@ -19,8 +19,8 @@ contract MyToken {
 
 
     // public variables here
-    string public tokenName;
-    string public tokenAbbr;
+    string public  tokenName = "XERA";
+    string public  tokenAbbr = "XER";
     uint public totalSuppy = 0;
     address public owner;
 
